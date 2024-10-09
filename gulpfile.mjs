@@ -3,7 +3,8 @@
 /**
 * Import uswds-compile
 */
-const uswds = require("@uswds/compile");
+import uswds from '@uswds/compile';
+// const uswds = require("@uswds/compile");
 
 /**
 * USWDS version
@@ -23,6 +24,6 @@ uswds.paths.dist.theme = './sass/uswds';
 * Exports
 * Add as many as you need
 */ 
-exports.init = uswds.init;
-exports.compile = uswds.compile;
-exports.watch = uswds.watch;
+export const init = uswds.init;
+export const compile = uswds.compile;
+export const watch = uswds.watch;

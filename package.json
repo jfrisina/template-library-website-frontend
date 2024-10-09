@@ -1,0 +1,25 @@
+{
+  "name": "template-library-website",
+  "version": "1.0.0",
+  "description": "A library website template",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfrisina/template-library-website.git"
+  },
+  "author": "Jaki Frisina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfrisina/template-library-website/issues"
+  },
+  "homepage": "https://github.com/jfrisina/template-library-website#readme",
+  "dependencies": {
+    "@uswds/uswds": "^3.9.0"
+  },
+  "devDependencies": {
+    "@uswds/compile": "^1.2.0"
+  }
+}

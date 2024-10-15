@@ -11,18 +11,17 @@ import './App.css'
 // import pages
 import Test from './pages/Test'
 
+// import components
+import Navbar from './components/navbar/Navbar'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
-      {/* <Test /> */}
-      {/* <div>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div> */}
+    <Navbar />
+
       <h1>Template Library Website</h1>
 
         {/* <button onClick={() => setCount((count) => count + 1)}>

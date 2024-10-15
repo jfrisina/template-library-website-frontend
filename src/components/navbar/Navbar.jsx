@@ -1,10 +1,11 @@
 // NAVBAR -------------------------------------------------------------
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-
+import reactLogo from './../../assets/react.svg'
 const Navbar = () => {
     return (
         <nav>
+            <img src={reactLogo} alt="React Logo" />
             <Link to='/home'>Home</Link>
             <Link to='/read'>Borrow</Link>
             <Link to='/research'>Research</Link>

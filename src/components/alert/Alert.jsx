@@ -1,4 +1,4 @@
-// ALERT
+// ALERT ----------------------------------------
 import './Alert.css'
 const Alert = () => {
     return (

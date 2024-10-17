@@ -13,6 +13,7 @@ import Test from './pages/Test'
 // import components
 import Navbar from './components/navbar/Navbar'
 import Alert from './components/alert/Alert'
+import Footer from "./components/footer/Footer"
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
           count is {count}
         </button> */}
 
-
+    <Footer />
     </>
   )
 }

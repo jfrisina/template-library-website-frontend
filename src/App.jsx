@@ -12,6 +12,7 @@ import Test from './pages/Test'
 
 // import components
 import Navbar from './components/navbar/Navbar'
+import Alert from './components/alert/Alert'
 
 
 function App() {
@@ -19,7 +20,9 @@ function App() {
 
   return (
     <>
-    <Navbar />
+      <Alert />
+      <Navbar />
+
 
       <h1>Template Library Website</h1>
 

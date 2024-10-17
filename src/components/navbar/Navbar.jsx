@@ -10,9 +10,7 @@ const Navbar = () => {
   <div class="usa-nav-container">
     <div class="usa-navbar">
       <div class="usa-logo">
-        <em class="usa-logo__text"
-          ><a href="/" title="<Project title>">&lt;Project title&gt;</a></em
-        >
+          <img src={libraryLogo} alt="Library Name Logo" />
       </div>
       <button type="button" class="usa-menu-btn">Menu</button>
     </div>
@@ -28,7 +26,7 @@ const Navbar = () => {
             aria-expanded="false"
             aria-controls="basic-mega-nav-section-one"
           >
-            <span>&lt;Current section&gt;</span>
+            <span>Borrow</span>
           </button>
           <div
             id="basic-mega-nav-section-one"
@@ -38,55 +36,54 @@ const Navbar = () => {
               <div class="usa-col">
                 <ul class="usa-nav__submenu-list">
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">&lt;Navigation link&gt;</a>
+                    <a href="javascript:void(0);">Catalog</a>
                   </li>
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">&lt;Navigation link&gt;</a>
+                    <a href="javascript:void(0);">Digital Books and Audiobooks</a>
                   </li>
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">&lt;Navigation link&gt;</a>
+                    <a href="javascript:void(0);">Newspapers</a>
                   </li>
                 </ul>
               </div>
               <div class="usa-col">
                 <ul class="usa-nav__submenu-list">
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">&lt;Navigation link&gt;</a>
+                    <a href="javascript:void(0);">Magazines</a>
                   </li>
                   <li class="usa-nav__submenu-item">
                     <a href="javascript:void(0);"
-                      >&lt;A very long navigation link that goes onto two
-                      lines&gt;</a
+                      >Videos</a
                     >
                   </li>
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">&lt;Navigation link&gt;</a>
+                    <a href="javascript:void(0);">Museum Passes</a>
                   </li>
                 </ul>
               </div>
               <div class="usa-col">
                 <ul class="usa-nav__submenu-list">
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">&lt;Navigation link&gt;</a>
+                    <a href="javascript:void(0);">Library of Things</a>
                   </li>
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">&lt;Navigation link&gt;</a>
+                    <a href="javascript:void(0);">Thing</a>
                   </li>
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">&lt;Navigation link&gt;</a>
+                    <a href="javascript:void(0);">Thing</a>
                   </li>
                 </ul>
               </div>
               <div class="usa-col">
                 <ul class="usa-nav__submenu-list">
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">&lt;Navigation link&gt;</a>
+                    <a href="javascript:void(0);">Thing</a>
                   </li>
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">&lt;Navigation link&gt;</a>
+                    <a href="javascript:void(0);">Thing</a>
                   </li>
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">&lt;Navigation link&gt;</a>
+                    <a href="javascript:void(0);">Get a Library Card</a>
                   </li>
                 </ul>
               </div>

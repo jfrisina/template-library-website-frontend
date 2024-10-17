@@ -109,13 +109,13 @@ const Navbar = () => {
               <div class="usa-col">
                 <ul class="usa-nav__submenu-list">
                   <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">Get a Library Card</a>
+                  </li>
+                  <li class="usa-nav__submenu-item">
                     <a href="javascript:void(0);">Borrowing Policy</a>
                   </li>
                   <li class="usa-nav__submenu-item">
                     <a href="javascript:void(0);">Interlibrary Loan (ILL)</a>
-                  </li>
-                  <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">Computers and Technology</a>
                   </li>
                 </ul>
               </div>
@@ -130,30 +130,30 @@ const Navbar = () => {
                     >
                   </li>
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">Get a Library Card</a>
+                    <a href="javascript:void(0);">Computers and Technology</a>
                   </li>
                 </ul>
               </div>
               <div class="usa-col">
                 <ul class="usa-nav__submenu-list">
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">Kids</a>
+                  </li>
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">Teens</a>
+                  </li>
                   <li class="usa-nav__submenu-item">
                     <a href="javascript:void(0);">Accessibility</a>
                   </li>
-                  <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">Another Service</a>
-                  </li>
-                  <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">Another Service</a>
-                  </li>
                 </ul>
               </div>
               <div class="usa-col">
                 <ul class="usa-nav__submenu-list">
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">Another Service</a>
+                    <a href="javascript:void(0);">Book an Appointment</a>
                   </li>
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">Another Service</a>
+                    <a href="javascript:void(0);">Report an Issue</a>
                   </li>
                   <li class="usa-nav__submenu-item">
                     <a href="javascript:void(0);">Contact Us</a>
@@ -187,7 +187,7 @@ const Navbar = () => {
                     <a href="javascript:void(0);">Seed Library</a>
                   </li>
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">Item</a>
+                    <a href="javascript:void(0);">Language Learning</a>
                   </li>
                 </ul>
               </div>
@@ -225,7 +225,7 @@ const Navbar = () => {
                     <a href="javascript:void(0);">About the Library</a>
                   </li>
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">Trustees</a>
+                    <a href="javascript:void(0);">Board of Trustees</a>
                   </li>
                   <li class="usa-nav__submenu-item">
                     <a href="javascript:void(0);">Staff Directory</a>

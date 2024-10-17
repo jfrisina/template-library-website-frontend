@@ -2,7 +2,7 @@
 import { useState } from 'react'
 
 // import images
-import viteLogo from '/vite.svg'
+// import viteLogo from '/vite.svg'
 
 // import CSS
 import './App.css'

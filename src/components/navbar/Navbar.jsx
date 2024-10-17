@@ -19,6 +19,7 @@ const Navbar = () => {
         <img src="../node_modules/@uswds/uswds/packages/usa-icon/src/img/usa-icons-bg/close--white.svg" role="img" alt="Close" />
       </button>
       <ul class="usa-nav__primary usa-accordion">
+        {/* Borrow ----------------------------------------------------------------------- */}
         <li class="usa-nav__primary-item">
           <button
             type="button"
@@ -53,11 +54,11 @@ const Navbar = () => {
                   </li>
                   <li class="usa-nav__submenu-item">
                     <a href="javascript:void(0);"
-                      >Videos</a
+                      >Audiobooks</a
                     >
                   </li>
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">Audiobooks</a>
+                    <a href="javascript:void(0);">Videos</a>
                   </li>
                 </ul>
               </div>
@@ -90,6 +91,7 @@ const Navbar = () => {
             </div>
           </div>
         </li>
+        {/* Services ----------------------------------------------------------------------- */}
         <li class="usa-nav__primary-item">
           <button
             type="button"
@@ -135,7 +137,7 @@ const Navbar = () => {
               <div class="usa-col">
                 <ul class="usa-nav__submenu-list">
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">Another Service</a>
+                    <a href="javascript:void(0);">Accessibility</a>
                   </li>
                   <li class="usa-nav__submenu-item">
                     <a href="javascript:void(0);">Another Service</a>
@@ -154,19 +156,99 @@ const Navbar = () => {
                     <a href="javascript:void(0);">Another Service</a>
                   </li>
                   <li class="usa-nav__submenu-item">
-                    <a href="javascript:void(0);">Another Service</a>
+                    <a href="javascript:void(0);">Contact Us</a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </li>
+             {/* Explore ----------------------------------------------------------------------- */}
+             <li class="usa-nav__primary-item">
+          <button
+            type="button"
+            class="usa-accordion__button usa-nav__link"
+            aria-expanded="false"
+            aria-controls="basic-mega-nav-section-three"
+          >
+            <span>Explore</span>
+          </button>
+          <div
+            id="basic-mega-nav-section-three"
+            class="usa-nav__submenu usa-megamenu"
+          >
+            <div class="grid-row grid-gap-4">
+              <div class="usa-col">
+                <ul class="usa-nav__submenu-list">
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">Community Resources</a>
+                  </li>
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">Seed Library</a>
+                  </li>
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">Item</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="usa-col">
+                <ul class="usa-nav__submenu-list">
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">Research Databases</a>
+                  </li>
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);"
+                      >Genealogy</a
+                    >
+                  </li>
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">Local History</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="usa-col">
+                <ul class="usa-nav__submenu-list">
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">Outreach</a>
+                  </li>
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">Volunteer</a>
+                  </li>
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">Policies</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="usa-col">
+                <ul class="usa-nav__submenu-list">
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">About the Library</a>
+                  </li>
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">Trustees</a>
+                  </li>
+                  <li class="usa-nav__submenu-item">
+                    <a href="javascript:void(0);">Staff Directory</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        {/* Donate ----------------------------------------------------------------------- */}
         <li class="usa-nav__primary-item">
           <a href="javascript:void(0);" class="usa-nav-link"
-            >&lt;Simple link&gt;</a
+            >Donate</a
+          >
+        </li>
+        {/* My Account ----------------------------------------------------------------------- */}
+        <li class="usa-nav__primary-item">
+          <a href="javascript:void(0);" class="usa-nav-link"
+            >My Account</a
           >
         </li>
       </ul>
+      {/* Search Box ----------------------------------------------------------------------- */}
       <section aria-label="Search component">
         <form class="usa-search usa-search--small" role="search">
           <label class="usa-sr-only" for="search-field">Search</label>

@@ -11,8 +11,9 @@ import './App.css'
 import Test from './pages/Test'
 
 // import components
-import Navbar from './components/navbar/Navbar'
 import Alert from './components/alert/Alert'
+import Navbar from './components/navbar/Navbar'
+import Breadcrumb from './components/breadcrumb/Breadcrumb'
 import Footer from "./components/footer/Footer"
 
 
@@ -23,6 +24,7 @@ function App() {
     <>
       <Alert />
       <Navbar />
+      <Breadcrumb />
 
 
       <h1>Template Library Website</h1>

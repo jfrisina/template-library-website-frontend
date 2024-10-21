@@ -61,8 +61,16 @@ const Footer = () => {
                     <a class="usa-social-link" href="javascript:void(0);"
                         ><img
                         class="usa-social-link__icon"
-                        src="../node_modules/@uswds/uswds/packages/usa-icon/src/img/uswds-icons/facebook.svg"
+                        src="src/assets/facebook.svg"
                         alt="Facebook"
+                    /></a>
+                    </div>
+                    <div class="grid-col-auto">
+                    <a class="usa-social-link" href="javascript:void(0);"
+                        ><img
+                        class="usa-social-link__icon"
+                        src="../node_modules/@uswds/uswds/packages/usa-icon/src/img/uswds-icons/instagram.svg"
+                        alt="Instagram"
                     /></a>
                     </div>
                     <div class="grid-col-auto">
@@ -79,14 +87,6 @@ const Footer = () => {
                         class="usa-social-link__icon"
                         src="../node_modules/@uswds/uswds/packages/usa-icon/src/img/uswds-icons/youtube.svg"
                         alt="YouTube"
-                    /></a>
-                    </div>
-                    <div class="grid-col-auto">
-                    <a class="usa-social-link" href="javascript:void(0);"
-                        ><img
-                        class="usa-social-link__icon"
-                        src="../node_modules/@uswds/uswds/packages/usa-icon/src/img/uswds-icons/instagram.svg"
-                        alt="Instagram"
                     /></a>
                     </div>
                 </div>

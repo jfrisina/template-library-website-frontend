@@ -6,6 +6,6 @@ Add:
 
 * Events
 * News
-* System Announcements
+* Coded breadcrumb
 * Contact form
 * Headless CMS

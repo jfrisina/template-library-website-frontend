@@ -8,7 +8,7 @@ const Breadcrumb = () => {
                 <li class="usa-breadcrumb__list-item">
                     <a href="" class="usa-breadcrumb__link"><span>Home</span></a>
                 </li>
-                <li class="usa-breadcrumb__list-item">
+                {/* <li class="usa-breadcrumb__list-item">
                     <a href="" class="usa-breadcrumb__link"><span>Page Template Code Here</span></a>
                 </li>
                 <li class="usa-breadcrumb__list-item">
@@ -16,7 +16,7 @@ const Breadcrumb = () => {
                 </li>
                 <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
                     <span>Page Template Code Here</span>
-                </li>
+                </li> */}
             </ol>
             </nav>
         </>

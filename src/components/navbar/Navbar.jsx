@@ -1,16 +1,25 @@
 // NAVBAR -------------------------------------------------------------
-import { useEffect } from 'react';
+import { useState } from 'react'
 import './Navbar.css'
 import libraryLogo from './../../assets/library-logo-dark.svg'
-import closeIcon from '../../assets/close.svg';
-import searchIcon from '../../assets/search.svg';
+import closeIcon from '../../assets/close.svg'
+import searchIcon from '../../assets/search.svg'
 
 const Navbar = () => {
-    useEffect(() => {
-        const uswds = require('uswds');
-        uswds.init(); // initializes USWDS JS after the component mounts
-    }, []);
+     // State for managing expanded menus
+     const [expandedMenu, setExpandedMenu] = useState({
+        borrow: false,
+        services: false,
+        explore: false,
+    });
 
+    // Toggle function for each menu
+    const toggleMenu = (menu) => {
+        setExpandedMenu((prevState) => ({
+            ...prevState,
+            [menu]: !prevState[menu],
+        }));
+    };
     return (
         <>
             <div className="usa-overlay"></div>
@@ -31,7 +40,7 @@ const Navbar = () => {
                             <li className="usa-nav__primary-item">
                                 <button
                                     type="button"
-                                    className="usa-accordion__button usa-nav__link usa-current"
+                                    className="usa-accordion__button usa-nav__link"
                                     aria-expanded="false"
                                     aria-controls="basic-mega-nav-section-one">
                                         <span>Borrow</span>
@@ -247,7 +256,7 @@ const Navbar = () => {
 {/* Search Box ------------------------------------------------------------------- */}
                         <section aria-label="Search component">
                             <form className="usa-search usa-search--small" role="search">
-                            <label className="usa-sr-only" htmlfor="search-field">Search</label>
+                            <label className="usa-sr-only" htmlFor="search-field">Search</label>
                             <input
                                 className="usa-input"
                                 id="search-field"

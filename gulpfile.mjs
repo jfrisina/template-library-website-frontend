@@ -4,7 +4,6 @@
 * Import uswds-compile
 */
 import uswds from '@uswds/compile';
-// const uswds = require("@uswds/compile");
 
 /**
 * USWDS version

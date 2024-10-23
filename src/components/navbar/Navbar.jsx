@@ -6,20 +6,6 @@ import closeIcon from '../../assets/close.svg'
 import searchIcon from '../../assets/search.svg'
 
 const Navbar = () => {
-     // State for managing expanded menus
-     const [expandedMenu, setExpandedMenu] = useState({
-        borrow: false,
-        services: false,
-        explore: false,
-    });
-
-    // Toggle function for each menu
-    const toggleMenu = (menu) => {
-        setExpandedMenu((prevState) => ({
-            ...prevState,
-            [menu]: !prevState[menu],
-        }));
-    };
     return (
         <>
             <div className="usa-overlay"></div>

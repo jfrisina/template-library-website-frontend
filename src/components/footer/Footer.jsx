@@ -3,7 +3,6 @@ import './Footer.css'
 const Footer = () => {
     return (
         <>
-
         <footer className="usa-footer">
         <div className="grid-container usa-footer__return-to-top">
             <a href="#">Return to top</a>
@@ -14,28 +13,28 @@ const Footer = () => {
                 <li
                 className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content"
                 >
-                <a className="usa-footer__primary-link" href="javascript:void(0);"
+                <a className="usa-footer__primary-link" href="#"
                     >&lt;Primary link&gt;</a
                 >
                 </li>
                 <li
                 className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content"
                 >
-                <a className="usa-footer__primary-link" href="javascript:void(0);"
+                <a className="usa-footer__primary-link" href="#"
                     >&lt;Primary link&gt;</a
                 >
                 </li>
                 <li
                 className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content"
                 >
-                <a className="usa-footer__primary-link" href="javascript:void(0);"
+                <a className="usa-footer__primary-link" href="#"
                     >&lt;Primary link&gt;</a
                 >
                 </li>
                 <li
                 className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content"
                 >
-                <a className="usa-footer__primary-link" href="javascript:void(0);"
+                <a className="usa-footer__primary-link" href="#"
                     >&lt;Primary link&gt;</a
                 >
                 </li>
@@ -58,15 +57,14 @@ const Footer = () => {
                 <div className="usa-footer__contact-links mobile-lg:grid-col-6">
                 <div className="usa-footer__social-links grid-row grid-gap-1">
                     <div className="grid-col-auto">
-                    <a className="usa-social-link" href="javascript:void(0);"
-                        ><img
+                    <a className="usa-social-link" href="#"><img
                         className="usa-social-link__icon"
                         src="src/assets/facebook.svg"
                         alt="Facebook"
                     /></a>
                     </div>
                     <div className="grid-col-auto">
-                    <a className="usa-social-link" href="javascript:void(0);"
+                    <a className="usa-social-link" href="#"
                         ><img
                         className="usa-social-link__icon"
                         src="../node_modules/@uswds/uswds/packages/usa-icon/src/img/uswds-icons/instagram.svg"
@@ -74,7 +72,7 @@ const Footer = () => {
                     /></a>
                     </div>
                     <div className="grid-col-auto">
-                    <a className="usa-social-link" href="javascript:void(0);"
+                    <a className="usa-social-link" href="#"
                         ><img
                         className="usa-social-link__icon"
                         src="../node_modules/@uswds/uswds/packages/usa-icon/src/img/uswds-icons/x.svg"
@@ -82,7 +80,7 @@ const Footer = () => {
                     /></a>
                     </div>
                     <div className="grid-col-auto">
-                    <a className="usa-social-link" href="javascript:void(0);"
+                    <a className="usa-social-link" href="#"
                         ><img
                         className="usa-social-link__icon"
                         src="../node_modules/@uswds/uswds/packages/usa-icon/src/img/uswds-icons/youtube.svg"
@@ -108,7 +106,6 @@ const Footer = () => {
             </div>
         </div>
         </footer>
-
         </>
     )
 }

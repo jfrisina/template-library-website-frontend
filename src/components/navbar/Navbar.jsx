@@ -37,53 +37,53 @@ const Navbar = () => {
                                     <div className="usa-col">
                                         <ul className="usa-nav__submenu-list">
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">Catalog</a>
+                                                <a href="#">Catalog</a>
                                             </li>
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">Get a Library Card</a>
+                                                <a href="#">Get a Library Card</a>
                                             </li>
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">Finding your next read</a>
+                                                <a href="#">Finding your next read</a>
                                             </li>
                                         </ul>
                                     </div>
                                 <div className="usa-col">
                                     <ul className="usa-nav__submenu-list">
                                         <li className="usa-nav__submenu-item">
-                                            <a href="javascript:void(0);">Books</a>
+                                            <a href="#">Books</a>
                                         </li>
                                         <li className="usa-nav__submenu-item">
-                                            <a href="javascript:void(0);"
+                                            <a href="#"
                                             >Audiobooks</a>
                                         </li>
                                         <li className="usa-nav__submenu-item">
-                                            <a href="javascript:void(0);">Videos</a>
+                                            <a href="#">Videos</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="usa-col">
                                     <ul className="usa-nav__submenu-list">
                                         <li className="usa-nav__submenu-item">
-                                            <a href="javascript:void(0);">E-books</a>
+                                            <a href="#">E-books</a>
                                         </li>
                                         <li className="usa-nav__submenu-item">
-                                            <a href="javascript:void(0);">E-audiobooks</a>
+                                            <a href="#">E-audiobooks</a>
                                         </li>
                                         <li className="usa-nav__submenu-item">
-                                            <a href="javascript:void(0);">Magazines</a>
+                                            <a href="#">Magazines</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="usa-col">
                                     <ul className="usa-nav__submenu-list">
                                         <li className="usa-nav__submenu-item">
-                                            <a href="javascript:void(0);">Newspapers</a>
+                                            <a href="#">Newspapers</a>
                                         </li>
                                         <li className="usa-nav__submenu-item">
-                                            <a href="javascript:void(0);">Museum Passes</a>
+                                            <a href="#">Museum Passes</a>
                                         </li>
                                         <li className="usa-nav__submenu-item">
-                                            <a href="javascript:void(0);">Library of Things</a>
+                                            <a href="#">Library of Things</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -108,52 +108,52 @@ const Navbar = () => {
                                         <div className="usa-col">
                                             <ul className="usa-nav__submenu-list">
                                                 <li className="usa-nav__submenu-item">
-                                                    <a href="javascript:void(0);">Get a Library Card</a>
+                                                    <a href="#">Get a Library Card</a>
                                                 </li>
                                                 <li className="usa-nav__submenu-item">
-                                                    <a href="javascript:void(0);">Borrowing Policy</a>
+                                                    <a href="#">Borrowing Policy</a>
                                                 </li>
                                                 <li className="usa-nav__submenu-item">
-                                                    <a href="javascript:void(0);">Interlibrary Loan (ILL)</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="usa-col">
-                                            <ul className="usa-nav__submenu-list">
-                                                <li className="usa-nav__submenu-item">
-                                                    <a href="javascript:void(0);">Events</a>
-                                                </li>
-                                                <li className="usa-nav__submenu-item">
-                                                    <a href="javascript:void(0);">Meeting Rooms</a>
-                                                </li>
-                                                <li className="usa-nav__submenu-item">
-                                                    <a href="javascript:void(0);">Computers and Technology</a>
+                                                    <a href="#">Interlibrary Loan (ILL)</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div className="usa-col">
                                             <ul className="usa-nav__submenu-list">
                                                 <li className="usa-nav__submenu-item">
-                                                    <a href="javascript:void(0);">Kids</a>
+                                                    <a href="#">Events</a>
                                                 </li>
                                                 <li className="usa-nav__submenu-item">
-                                                    <a href="javascript:void(0);">Teens</a>
+                                                    <a href="#">Meeting Rooms</a>
                                                 </li>
                                                 <li className="usa-nav__submenu-item">
-                                                    <a href="javascript:void(0);">Accessibility</a>
+                                                    <a href="#">Computers and Technology</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div className="usa-col">
                                             <ul className="usa-nav__submenu-list">
                                                 <li className="usa-nav__submenu-item">
-                                                    <a href="javascript:void(0);">Book an Appointment</a>
+                                                    <a href="#">Kids</a>
                                                 </li>
                                                 <li className="usa-nav__submenu-item">
-                                                    <a href="javascript:void(0);">Report an Issue</a>
+                                                    <a href="#">Teens</a>
                                                 </li>
                                                 <li className="usa-nav__submenu-item">
-                                                    <a href="javascript:void(0);">Contact Us</a>
+                                                    <a href="#">Accessibility</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div className="usa-col">
+                                            <ul className="usa-nav__submenu-list">
+                                                <li className="usa-nav__submenu-item">
+                                                    <a href="#">Book an Appointment</a>
+                                                </li>
+                                                <li className="usa-nav__submenu-item">
+                                                    <a href="#">Report an Issue</a>
+                                                </li>
+                                                <li className="usa-nav__submenu-item">
+                                                    <a href="#">Contact Us</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -177,53 +177,53 @@ const Navbar = () => {
                                     <div className="usa-col">
                                         <ul className="usa-nav__submenu-list">
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">Community Resources</a>
+                                                <a href="#">Community Resources</a>
                                             </li>
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">Seed Library</a>
+                                                <a href="#">Seed Library</a>
                                             </li>
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">Language Learning</a>
+                                                <a href="#">Language Learning</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div className="usa-col">
                                         <ul className="usa-nav__submenu-list">
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">Research Databases</a>
+                                                <a href="#">Research Databases</a>
                                             </li>
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);"
+                                                <a href="#"
                                                 >Genealogy</a>
                                             </li>
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">Local History</a>
+                                                <a href="#">Local History</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div className="usa-col">
                                         <ul className="usa-nav__submenu-list">
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">Outreach</a>
+                                                <a href="#">Outreach</a>
                                             </li>
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">Volunteer</a>
+                                                <a href="#">Volunteer</a>
                                             </li>
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">Policies</a>
+                                                <a href="#">Policies</a>
                                             </li>
                                         </ul>
                                     </div>
                                     <div className="usa-col">
                                         <ul className="usa-nav__submenu-list">
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">About the Library</a>
+                                                <a href="#">About the Library</a>
                                             </li>
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">Board of Trustees</a>
+                                                <a href="#">Board of Trustees</a>
                                             </li>
                                             <li className="usa-nav__submenu-item">
-                                                <a href="javascript:void(0);">Staff Directory</a>
+                                                <a href="#">Staff Directory</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -232,11 +232,11 @@ const Navbar = () => {
                             </li>
 {/* Donate -------------------------------------------------------------------- */}
                             <li className="usa-nav__primary-item">
-                                <a href="javascript:void(0);" className="usa-nav-link">Donate</a>
+                                <a href="#" className="usa-nav-link">Donate</a>
                             </li>
 {/* My Account ---------------------------------------------------------------- */}
                             <li className="usa-nav__primary-item">
-                                <a href="javascript:void(0);" className="usa-nav-link">My Account</a>
+                                <a href="#" className="usa-nav-link">My Account</a>
                             </li>
                         </ul>
 {/* Search Box ------------------------------------------------------------------- */}

@@ -6,7 +6,6 @@ import { useState } from 'react'
 
 // import CSS
 import './App.css'
-// import 'uswds/dist/css/uswds.min.css';
 
 // import pages
 import Test from './pages/Test'
@@ -20,8 +19,6 @@ import Footer from "./components/footer/Footer"
 
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <>
       <Alert />
@@ -29,14 +26,7 @@ function App() {
       <Breadcrumb />
       <Events />
 
-
-      <h1>Template Library Website</h1>
-
-        {/* <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button> */}
-
-    <Footer />
+      <Footer />
     </>
   )
 }

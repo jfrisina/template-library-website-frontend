@@ -6,9 +6,25 @@ import closeIcon from '../../assets/close.svg'
 import searchIcon from '../../assets/search.svg'
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    const [openSection, setOpenSection] = useState(null);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
+    const toggleSection = (section) => {
+        setOpenSection(openSection === section ? null : section);
+    };
+
+    const handleSearchSubmit = (event) => {
+        event.preventDefault();
+        // Add search handling logic here
+    };
+
     return (
         <>
-            <div className="usa-overlay"></div>
+            <div className={`usa-overlay ${isOpen ? 'is-open' : ''}`}></div>
             <header className="usa-header usa-header--basic usa-header--megamenu">
                 <div className="usa-nav-container">
                     <div className="usa-navbar">

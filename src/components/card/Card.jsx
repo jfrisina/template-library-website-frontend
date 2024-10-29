@@ -7,20 +7,19 @@ const Card = () => {
                 <li class="usa-card tablet-lg:grid-col-6 widescreen:grid-col-4">
                     <div class="usa-card__container">
                     <div class="usa-card__header">
-                        <h4 class="usa-card__heading">Exdent media</h4>
+                        <h4 class="usa-card__heading">Story Time</h4>
                     </div>
                     <div class="usa-card__media usa-card__media--exdent">
                         <div class="usa-card__img">
                         <img
-                            src="https://designsystem.digital.gov/img/introducing-uswds-2-0/built-to-grow--alt.jpg"
-                            alt="A placeholder image"
+                            src="../assets/nappy-8X5PS8tAqsA-unsplash.jpg"
+                            alt="A baby holds and looks at a book"
                         />
                         </div>
                     </div>
                     <div class="usa-card__body">
                         <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-                        possimus similique nemo odit doloremque laudantium?
+                       
                         </p>
                     </div>
                     <div class="usa-card__footer">

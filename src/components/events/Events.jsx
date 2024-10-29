@@ -3,6 +3,7 @@ import './Events.css'
 const Events = () => {
     return (
         <>
+        <h2>Events</h2>
             <div className="grid-row">
                 <ul className="usa-card-group">
                     <li className="usa-card tablet-lg:grid-col-6 widescreen:grid-col-4">
@@ -66,8 +67,7 @@ const Events = () => {
                                 </div>
                             </div>
                             <div className="usa-card__body">
-                                <p>
-                                Enter the world of role-playing fantasy game
+                                <p>Embrace your creativity and imagination in this popular role-playing fantasy game.
                                 </p>
                                 <p><strong>Location</strong>: South Branch</p>  
                                 <p><strong>Date</strong>: Every Wednesday</p> <p><strong>Time</strong>: 4 PM</p>

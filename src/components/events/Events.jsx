@@ -14,7 +14,7 @@ const Events = () => {
                             <div className="usa-card__media usa-card__media--exdent">
                                 <div className="usa-card__img">
                                 <img
-                                    src="src/assets/nappy-8X5PS8tAqsA-unsplash.jpg"
+                                    src="src/assets/images/nappy-8X5PS8tAqsA-unsplash.jpg"
                                     alt="A placeholder image"
                                 />  
                                 </div>
@@ -38,7 +38,7 @@ const Events = () => {
                             </div>
                             <div className="usa-card__media usa-card__media--exdent">
                                 <div className="usa-card__img">
-                                    <img src="src/assets/tim-arterbury-VkwRmha1_tI-unsplash.jpg" alt="A placeholder image"/>
+                                    <img src="src/assets/images/kelly-sikkema-8A7qKkvm_ew-unsplash.jpg" alt="A placeholder image"/>
                                 </div>
                             </div>
                         <div className="usa-card__body">
@@ -61,7 +61,7 @@ const Events = () => {
                             <div className="usa-card__media usa-card__media--exdent">
                                 <div className="usa-card__img">
                                 <img
-                                    src="src/assets/timothy-dykes-7-vPKU5Kqqs-unsplash.jpg"
+                                    src="src/assets/images/timothy-dykes-7-vPKU5Kqqs-unsplash.jpg"
                                     alt="20-sided dice for the game Dungeons and Dragons"
                                 />
                                 </div>

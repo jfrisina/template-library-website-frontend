@@ -14,28 +14,28 @@ const Footer = () => {
                 className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content"
                 >
                 <a className="usa-footer__primary-link" href="#"
-                    >&lt;Primary link&gt;</a
+                    >Events</a
                 >
                 </li>
                 <li
                 className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content"
                 >
                 <a className="usa-footer__primary-link" href="#"
-                    >&lt;Primary link&gt;</a
+                    >News</a
                 >
                 </li>
                 <li
                 className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content"
                 >
                 <a className="usa-footer__primary-link" href="#"
-                    >&lt;Primary link&gt;</a
+                    >Directions</a
                 >
                 </li>
                 <li
                 className="mobile-lg:grid-col-4 desktop:grid-col-auto usa-footer__primary-content"
                 >
                 <a className="usa-footer__primary-link" href="#"
-                    >&lt;Primary link&gt;</a
+                    >Contact Us</a
                 >
                 </li>
             </ul>
@@ -94,7 +94,7 @@ const Footer = () => {
                 <address className="usa-footer__address">
                     <div className="usa-footer__contact-info grid-row grid-gap">
                     <div className="grid-col-auto">
-                        <a href="tel:1-800-555-5555">000-000-000</a>
+                        <a href="tel:1-800-555-5555">123-456-7891</a>
                     </div>
                     <div className="grid-col-auto">
                         <a href="mailto:info@agency.gov">library@email.org</a>

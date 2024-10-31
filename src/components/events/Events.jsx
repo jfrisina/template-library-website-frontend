@@ -24,7 +24,9 @@ const Events = () => {
                                 Join us for a story, sing-a-long, and play time! 
                                 </p>
                                 <p><strong>Location</strong>: Main Branch</p>  
-                                <p><strong>Date</strong>: Every Tuesday</p> <p><strong>Time</strong>: 10 AM</p>
+                                <p><strong>Date</strong>: Every Tuesday</p> 
+                                <p><strong>Time</strong>: 10 AM</p>
+                                <p><strong>For</strong>: Babies, Toddlers</p> 
                             </div>
                             <div className="usa-card__footer">
                                 <a href="#" className="usa-button">Get info</a>
@@ -46,7 +48,9 @@ const Events = () => {
                             Bring your latest craft project to work on!
                             </p>
                             <p><strong>Location</strong>: Main Branch</p>  
-                            <p><strong>Date</strong>: Every Thursday</p> <p><strong>Time</strong>: 3 PM</p>
+                            <p><strong>Date</strong>: Every Thursday</p> 
+                            <p><strong>Time</strong>: 3 PM</p>
+                            <p><strong>For</strong>: All Ages</p> 
                         </div>
                             <div className="usa-card__footer">
                                 <a href="#" className="usa-button">Get info</a>
@@ -70,7 +74,9 @@ const Events = () => {
                                 <p>Embrace your creativity and imagination in this popular role-playing fantasy game.
                                 </p>
                                 <p><strong>Location</strong>: South Branch</p>  
-                                <p><strong>Date</strong>: Every Wednesday</p> <p><strong>Time</strong>: 4 PM</p>
+                                <p><strong>Date</strong>: Every Wednesday</p> 
+                                <p><strong>Time</strong>: 4 PM</p>
+                                <p><strong>For</strong>: Teens</p> 
                             </div>
                             <div className="usa-card__footer">
                                 <a href="#" className="usa-button">Get Info</a>

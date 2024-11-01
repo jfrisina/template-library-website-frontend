@@ -4,6 +4,7 @@ const Events = () => {
     return (
         <>
         <h2>Events</h2>
+        <div className="desktop:grid-container">
             <div className="grid-row">
                 <ul className="usa-card-group">
                     <li className="usa-card tablet-lg:grid-col-6 widescreen:grid-col-4">
@@ -23,10 +24,10 @@ const Events = () => {
                                 <p>
                                 Join us for a story, sing-a-long, and play time! 
                                 </p>
-                                <p><strong>Location</strong>: Main Branch</p>  
-                                <p><strong>Date</strong>: Every Tuesday</p> 
-                                <p><strong>Time</strong>: 10 AM</p>
-                                <p><strong>For</strong>: Babies, Toddlers</p> 
+                                <p className='margin-0'><strong>Location</strong>: Main Branch</p>  
+                                <p className='margin-0'><strong>Date</strong>: Every Tuesday</p> 
+                                <p className='margin-0'><strong>Time</strong>: 10 AM</p>
+                                <p className='margin-0'><strong>For</strong>: Babies, Toddlers</p> 
                             </div>
                             <div className="usa-card__footer">
                                 <a href="#" className="usa-button">Get info</a>
@@ -45,12 +46,12 @@ const Events = () => {
                             </div>
                         <div className="usa-card__body">
                             <p>
-                            Bring your latest craft project to work on!
+                            Bring your own craft project to create in a cozy group setting.
                             </p>
-                            <p><strong>Location</strong>: Main Branch</p>  
-                            <p><strong>Date</strong>: Every Thursday</p> 
-                            <p><strong>Time</strong>: 3 PM</p>
-                            <p><strong>For</strong>: All Ages</p> 
+                            <p className='margin-0'><strong>Location</strong>: Main Branch</p>  
+                            <p className='margin-0'><strong>Date</strong>: Every Thursday</p> 
+                            <p className='margin-0'><strong>Time</strong>: 3 PM</p>
+                            <p className='margin-0'><strong>For</strong>: All Ages</p> 
                         </div>
                             <div className="usa-card__footer">
                                 <a href="#" className="usa-button">Get info</a>
@@ -71,12 +72,12 @@ const Events = () => {
                                 </div>
                             </div>
                             <div className="usa-card__body">
-                                <p>Embrace your creativity and imagination in this popular role-playing fantasy game.
+                                <p>Embrace your creativity and imagination in this popular game.
                                 </p>
-                                <p><strong>Location</strong>: South Branch</p>  
-                                <p><strong>Date</strong>: Every Wednesday</p> 
-                                <p><strong>Time</strong>: 4 PM</p>
-                                <p><strong>For</strong>: Teens</p> 
+                                <p className='margin-0'><strong>Location</strong>: South Branch</p>  
+                                <p className='margin-0'><strong>Date</strong>: Every Wednesday</p> 
+                                <p className='margin-0'><strong>Time</strong>: 4 PM</p>
+                                <p className='margin-0'><strong>For</strong>: Teens</p> 
                             </div>
                             <div className="usa-card__footer">
                                 <a href="#" className="usa-button">Get Info</a>
@@ -84,6 +85,7 @@ const Events = () => {
                         </div>
                     </li>
                 </ul>
+            </div>
             </div>
         </>
     )

@@ -16,7 +16,7 @@ const Events = () => {
                                 <div className="usa-card__img">
                                 <img
                                     src="src/assets/images/nappy-8X5PS8tAqsA-unsplash.jpg"
-                                    alt="A placeholder image"
+                                    alt="A sitting baby turns the page of a book held up by someone else"
                                 />  
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const Events = () => {
                             </div>
                             <div className="usa-card__media usa-card__media--exdent">
                                 <div className="usa-card__img">
-                                    <img src="src/assets/images/kelly-sikkema-8A7qKkvm_ew-unsplash.jpg" alt="A placeholder image"/>
+                                    <img src="src/assets/images/kelly-sikkema-8A7qKkvm_ew-unsplash.jpg" alt="Three skeins of yarn on top of knitting needles"/>
                                 </div>
                             </div>
                         <div className="usa-card__body">

@@ -93,5 +93,5 @@ const Events = () => {
         </>
     )
 }
-// EXPORT ALERT --------------------------------
+// EXPORT EVENTS --------------------------------
 export default Events

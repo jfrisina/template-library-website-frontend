@@ -87,7 +87,7 @@ const Events = () => {
                 </ul>
             </div>
         <div className="flex">
-            <button class="usa-button usa-button--secondary flex-align-center usa-button--big" type="button">See all events</button>
+            <button className="usa-button usa-button--secondary flex-align-center usa-button--big" type="button">See all events</button>
         </div>
         </div>
         </>

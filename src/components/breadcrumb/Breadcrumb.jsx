@@ -3,7 +3,7 @@ import './Breadcrumb.css'
 const Breadcrumb = () => {
     return (
         <>
-            <nav className="usa-breadcrumb" aria-label="Breadcrumbs">
+            <nav className="usa-breadcrumb grid-container" aria-label="Breadcrumbs">
             <ol className="usa-breadcrumb__list">
                 <li className="usa-breadcrumb__list-item">
                     <a href="#" className="usa-breadcrumb__link"><span>Home</span></a>
